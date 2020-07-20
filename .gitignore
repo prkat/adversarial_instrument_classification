@@ -1,0 +1,10 @@
+.DS_Store
+
+__pycache__
+
+misc/adversaries
+misc/logs
+misc/plots
+
+test_post_competition.csv
+train_curated_post_competition.csv

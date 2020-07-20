@@ -1,0 +1,4 @@
+experiment = test
+model_to_attack = torch16s1f
+epsilon = 0.1
+valid = True

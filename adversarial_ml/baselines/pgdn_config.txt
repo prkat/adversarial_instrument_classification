@@ -1,0 +1,8 @@
+experiment = test
+model_to_attack = torch16s1f
+rand_start = True
+valid = True
+
+max_iter = 500
+epsilon = 0.0005
+lr = 0.00001

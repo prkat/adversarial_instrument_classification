@@ -1,0 +1,16 @@
+experiment = test
+model_to_attack = torch16s1f
+valid = True
+target = accordion
+attack = cw
+rand_seed = 21
+
+lr = 0.00001
+max_iterations = 500
+alpha = 0.01
+sign = True
+clipping = True
+clip_eps = 0.01
+
+rescale = False
+rescale_factor = 1.
