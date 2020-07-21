@@ -21,7 +21,7 @@ Prerequisites
 For details on the versions of the libraries we used, please 
 view `adversarial_ml/requirements.txt`. The tested Python version is `3.7.3`.
 If `conda` is available, a new environment
-can be create and the necessary libraries installed via
+can be created and the necessary libraries installed via
 
 ````
 conda create -n ad_env python==3.7.3 pip
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 Data Setup
 ----------
-The data we originally use is a part of the curated train set of the 
+The data we use is a part of the curated train set of the 
 FSDKaggle2019 [1, 2] data. More precisely,
 we use the 799 files that have one single of 12 different musical labels
 (see `adversarial_ml/data/data_utils`) for more information on these labels.
@@ -62,7 +62,9 @@ adversarial_ml
 ├── misc
 │   ├── pre_trained
 │   └── supplementary_material
-└── README.md
+├── README.md
+├── index.html
+└── requirements.txt
 ```
 
 In the sub-folder `aversarial_ml` the code can be found. The sub-directories are:
@@ -73,9 +75,9 @@ In the sub-folder `aversarial_ml` the code can be found. The sub-directories are
 - and `utils` contains our model architecture and all kind of utils.
 
 The folder `misc/pre_trained` contains the trained CNN that we attack; 
-in `misc/supplementary_material` the supplementary material of above
+in `misc/supplementary_material` the [supplementary material](https://msbluemchen.github.io/adversarial_instrument_classification/misc/supplementary_material/supplementary_material.html) of above
 described technical report is located (including hearing examples
-and confusion matrix of the system after various attacks).
+and confusion matrices of the system after various attacks).
 
 Adversarial examples will be stored in `misc/adversaries`, and
 according logging-files in `misc/logs`.
@@ -106,7 +108,7 @@ python3 -m adversarial_ml.attacks.targeted_attack
 ````
 
 To modify the parameter setting, change the according parameters in 
-`adversarial_ml/attacks/attack_config.txt`. Note, that you can
+`adversarial_ml/attacks/attack_config.txt`. You can
 switch between the two attacks by setting `attack = cw` or `attack = mscw`
 respectively; in addition to that, the target class can be modified to
 be either `target = random` or the name of a particular classs, e.g.
