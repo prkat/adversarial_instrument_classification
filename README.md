@@ -1,7 +1,9 @@
 Adversarial Examples
 ====================
 This is the code for the technical report *End-to-End Adversarial White Box Attacks on 
-Music Instrument Classification* (Institute for Computational Perception, JKU Linz).
+Music Instrument Classification* (Institute for Computational Perception, JKU Linz). To view
+our supplementary material, including listening examples, 
+look at our [Github page](https://msbluemchen.github.io/adversarial_instrument_classification/misc/supplementary_material/supplementary_material.html).
 
 To use this repository, please make sure to adapt the paths in `adversarial_ml/utils/paths.py`
 accordingly, in particular the path pointing to the data (`d_path`), 
