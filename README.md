@@ -130,3 +130,7 @@ Zenodo. http://doi.org/10.5281/zenodo.3612637.
 [2] Eduardo Fonseca, Manoj Plakal, Frederic Font, Daniel P. W. Ellis, 
 Xavier Serra. "Audio tagging with noisy labels and minimal supervision". 
 Proceedings of the DCASE 2019 Workshop, NYC, US (2019).
+
+Acknowledgments
+---------------
+This work is supported by the Austrian National Science Foundation (FWF, P 31988).
