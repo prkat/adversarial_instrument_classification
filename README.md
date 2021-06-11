@@ -3,7 +3,7 @@ Adversarial Examples
 This is the code for the technical report *End-to-End Adversarial White Box Attacks on 
 Music Instrument Classification* (Institute for Computational Perception, JKU Linz). To view
 our supplementary material, including listening examples, 
-look at our [Github page](https://msbluemchen.github.io/adversarial_instrument_classification/misc/supplementary_material/supplementary_material.html).
+look at our [Github page](https://prkat.github.io/adversarial_instrument_classification/misc/supplementary_material/supplementary_material.html).
 
 To use this repository, please make sure to adapt the paths in `adversarial_ml/utils/paths.py`
 accordingly, in particular the path pointing to the data (`d_path`), 
@@ -75,7 +75,7 @@ In the sub-folder `aversarial_ml` the code can be found. The sub-directories are
 - and `utils` contains our model architecture and all kind of utils.
 
 The folder `misc/pre_trained` contains the trained CNN that we attack; 
-in `misc/supplementary_material` the [supplementary material](https://msbluemchen.github.io/adversarial_instrument_classification/misc/supplementary_material/supplementary_material.html) of above
+in `misc/supplementary_material` the [supplementary material](https://prkat.github.io/adversarial_instrument_classification/misc/supplementary_material/supplementary_material.html) of above
 described technical report is located (including hearing examples
 and confusion matrices of the system after various attacks).
 
